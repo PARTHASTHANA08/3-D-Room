@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <SCRIPT src="https://aframe.io/releases/0.6.0/aframe.min.js"> </SCRIPT>
+    </HEAD>
+    <BODY>
+        <A-SCENE>
+            <A-SKY></A-SKY>
+            <A-ENTITY>
+                <A-CAMERA position = "0 0 25"></A-CAMERA>
+            </A-ENTITY>
+            <A-ENTITY>
+              <A-PLANE position = "0 9.5 -5" width = "50" height = "25" src = "wall.jpg"></A-PLANE>
+              <A-PLANE position = "0 -2 -5" width = "50" height = "26" src="floor.jpg" rotation = "  -45 0 0 "></A-PLANE>
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-PLANE position = "0 10 -4.9" width = "18" height = "9" color = "black"></A-PLANE>
+                <A-PLANE position = " 0 10 -4.8" width = "17" height = "8" src = "tv.PNG"></A-PLANE>
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-PLANE position = "15 10 -4.9" width = "5" height = "13" color = "brown"></A-PLANE>
+                <A-PLANE position = " 15 10 -4.8" width = "4" height = "12" src = "photo.PNG"></A-PLANE>
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-PLANE position = "-15 10 -4.9" width = "5" height = "13" color = "brown"></A-PLANE>
+                <A-PLANE position = " -15 10 -4.8" width = "4" height = "12" src = "photo.PNG"></A-PLANE>
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-CONE position = "0 -5 5" radius-bottom = "3" radius-top = "0" height = "2" rotation = "0 0 0" src = "table.PNG"></A-CONE>
+                <A-CYLINDER position = "0 -4 5" radius = "1" height = "4" src = "table.PNG"></A-CYLINDER>
+                <A-BOX  position = "0 -2 5" width = "9" height = "5" rotation = "-80 0 0" src = "table.PNG"> </A-BOX>
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-BOX position = "-10 -3 5" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "-10 -3.8 4.55" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "-10 -4.5 4.15" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "-12.5 -2.6 5" width = "5" height = "6" rotation = "0 90 30" src = "couch.jpg"></A-BOX>  
+            </A-ENTITY>
+            <A-ENTITY>
+                <A-BOX position = "10 -3 5" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "10 -3.8 4.55" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "10 -4.5 4.15" width = "5" height = "5" rotation = "-60 0 0 " src = "couch.jpg"></A-BOX>
+                <A-BOX position = "12.5 -2.6 5" width = "5" height = "6" rotation = "0 90 30" src = "couch.jpg"></A-BOX>  
+            </A-ENTITY>
+        </A-SCENE>
+    </BODY>
+</HTML>
